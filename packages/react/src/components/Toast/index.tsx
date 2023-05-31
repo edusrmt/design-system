@@ -30,3 +30,5 @@ export function Toast({ title, description, ...props }: ToastProps) {
     </ToastProvider>
   )
 }
+
+Toast.displayName = 'Toast'
